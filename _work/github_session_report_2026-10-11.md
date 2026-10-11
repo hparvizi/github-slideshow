@@ -6,7 +6,7 @@
 ## Job 2 (literature): PARTIAL, see _work/SPE_v4_literature_insights.md
 - Web page fetches are blocked in this session; five must-find sources (Bygdevoll, Wickens and Kelly, Horikx, Jia, Naugolnov) NOT located. NSTA 2017 read in full. Abstract-book scan not done.
 ## Job 3 (complexity LOFO): DONE, see _work/SPE_v4_complexity_test/RESULTS.md
-- tau and field EUR: no gain from complexity classes. EUR per well: median error 42% to 22% (permutation P 0.007) but fragile to thresholds. RF_eff: 23% vs 26% (P 0.08). Q check: see below.
+- tau and field EUR: no gain from complexity classes. EUR per well: apparent gain (42% to 22%) was an artefact of leaked class marks; leakage-free it is 41.0% vs 41.8% (see RESULTS.md addendum). RF_eff: 23% vs 26% (P 0.08). Q check: PASS WITH FIXES, fixes applied, result revised to negative.
 ## Job 4 (v4): NOT RUN. v3 .docx (8.5 MB) cannot be read as a file through the connector; needs the desktop session. Job 2 gaps also remain.
 ## Tokens: not logged to the Token Log sheet (no estimate made).
 ## Next: desktop session for v4 and the abstract-book scan; decide on stray duplicates; per-file catalogue pass.

@@ -1,0 +1,25 @@
+=== ORIGINAL matrix, common play-wide sigma ===
+classes {'simple': ['Murdoch', 'McAdam', 'Schooner', 'Boulton', 'Ketch', 'MurdochK'], 'moderate': ['Trent', 'Chiswick', 'Kew', 'Rita'], 'complex': ['Breagh', 'Kilmar', 'Cavendish']}
+  tau       strat  34.7% in 10/13 w3.0x | class  37.2% in 9/13 w3.0x
+  EUR/well  strat  41.8% in 9/12 w6.1x | class  21.9% in 9/12 w6.1x
+  RF_eff    strat  25.8% in 6/8 w3.1x | class  23.1% in 6/8 w3.1x
+perm P (20000, seed 7): {'tau': 0.696, 'euw': 0.01165, 'rfe': 0.0877}
+=== threshold grid, original matrix (tau/euw/rfe class medAE; strat euw 41.8) ===
+0.5 1.5 [0.372, 0.219, 0.231] {'simple': 6, 'moderate': 4, 'complex': 3}
+0.5 2.0 [0.303, 0.329, 0.233] {'simple': 6, 'moderate': 5, 'complex': 2}
+1.0 2.0 [0.392, 0.41, 0.346] {'simple': 10, 'moderate': 1, 'complex': 2}
+1.0 1.5 [0.392, 0.261, 0.346] {'simple': 10, 'moderate': 0, 'complex': 3}
+0.5 1.0 [0.372, 0.219, 0.231] {'simple': 6, 'moderate': 4, 'complex': 3}
+Cavendish moderate (threshold 1.6):
+[0.303, 0.329, 0.233]
+=== LEAKAGE-FREE matrix ===
+classes {'simple': ['Chiswick', 'Kew', 'Murdoch', 'McAdam', 'Schooner', 'Boulton', 'Ketch', 'MurdochK', 'Rita'], 'moderate': ['Breagh', 'Kilmar', 'Trent'], 'complex': ['Cavendish']}
+  tau       strat  34.7% in 10/13 w3.0x | class  38.8% in 10/13 w3.0x
+  EUR/well  strat  41.8% in 9/12 w6.1x | class  41.0% in 10/12 w6.1x
+  RF_eff    strat  25.8% in 6/8 w3.1x | class  34.6% in 6/8 w3.1x
+perm P: {'tau': 0.8442, 'euw': 0.28265, 'rfe': 0.9515}
+LF grid 0.5 1.5 [0.388, 0.41, 0.346] {'simple': 9, 'moderate': 3, 'complex': 1}
+LF grid 0.5 1.0 [0.372, 0.41, 0.346] {'simple': 9, 'moderate': 2, 'complex': 2}
+LF grid 1.0 1.5 [0.369, 0.392, 0.254] {'simple': 11, 'moderate': 1, 'complex': 1}
+
+[exited with code 0]
