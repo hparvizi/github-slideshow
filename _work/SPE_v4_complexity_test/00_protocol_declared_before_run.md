@@ -1,11 +1,11 @@
 # Complexity-class leave-one-out test: protocol (written before any prediction was run)
 
-Date: 2026-10-11. Inputs: SPE paper v3 Tables 8-14 and 22 only. Job 2 literature evidence is NOT yet in
+Date: 2026-10-11. Inputs: SPE paper v3 Tables 9-14 and 22 only. Job 2 literature evidence is NOT yet in
 the matrix, so every cell below is marked from v3 text; Job 2 may later upgrade "open" cells.
 
 Caveat on blindness: the v3 outcome tables (tau, EUR/well) were visible when the matrix was built.
 To limit that, cell marks use only geological, test and pressure statements (Tables 9, 10, 12, 14),
-not tau, EUR, EUR/well or eta_G values (eta_G is production-derived, so it is not used as a score input).
+not tau, EUR or EUR/well values. CORRECTION (Q review): this was NOT achieved. Marks for Breagh C2, Kilmar C1/C3 and the C4 marks (Breagh, Chiswick, Kew, Rita) were taken from v3 Table 12 readings that rest on production-derived eta_G / eta_J diagnoses, and Kilmar C3 is a production outcome. See RESULTS.md leakage-free variant.
 
 ## 1. Challenge columns (reservoir-intrinsic only)
 C1 compartments / water-isolated channels
